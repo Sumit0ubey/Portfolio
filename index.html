@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./resources/logo.ico" type="image/x-icon">
+    <title>Sumit Dubey | Portfolio </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <nav id="desktop-nav">
+        <div class="logo">Sumit Dubey</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#about">About</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="logo">Sumit Dubey</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="index.html" onclick="toggleMenu()"></a>Home</li>
+                <li><a href="#experience" onclick="toggleMenu()"></a>Experience</li>
+                <li><a href="#projects" onclick="toggleMenu()"></a>Projects</li>
+                <li><a href="#about" onclick="toggleMenu()"></a>About</li>
+            </div>
+        </div>
+    </nav>
+
+    <section id="profile">
+        <div class="section__pic-container">
+            <img src="./resources/profile-pic.png" alt="Sumit Dubey Profile Pic" class="profile-pic"/>
+        </div>
+        <div class="section__text">
+            <p class="section__text__p1">Hello, I'm</p>
+            <h1 class="title">Sumit Dubey</h1>
+            <p class="section__text__p2"><span class="multuple-text"></span></p>
+            <div class="btn-container">
+                <button class="btn btn-color-2"" onclick="location.href='https://drive.google.com/drive/folders/1GdoodmNVaUrpFvaG3pY0NmfBFLqihKZy?usp=sharing'">Download CV</button>
+                <button class="btn btn-color-2" onclick="location.href='./#contact'">Contact Info</button>
+            </div>
+            <div id="socials-container">
+                <img src="./resources/linkedin.png" alt="linkedin Pic" class="icon" onclick="location.href='https://www.linkedin.com/in/sumit-dubey-8762802a1'" />
+                <img src="./resources/github.png" alt="github Pic" class="icon" onclick="location.href='https://github.com/Sumit0ubey'" />
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <p class="section__text__p1">Get To Know More</p>
+        <h1 class="title">About Me</h1>
+        <div class="section-container">
+            <div class="about-details-container">
+                <div class="about-containers">
+                    <div class="details-container">
+                        <img src="./resources/experience.png" alt="Experience icon" class="icon" />
+                        <h3>Experience</h3>
+                        <p>3+ months Internship</p>
+                    </div>
+                    <div class="details-container">
+                        <img src="./resources/education.png" alt="Eduction icon" class="icon" />
+                        <h3>Eduction</h3>
+                        <p>B.Sc.IT Bachelors Degree </p>
+                    </div>
+                    <div class="details-container">
+                        <img src="./resources/experience.png" alt="Experience icon" class="icon" />
+                        <h3>Technologies Knows</h3>
+                        <p>Language: Python, Java, Javascript <br /> Frameworks: Django/Flask, FastApi, Tkinter, Spring, Android Development, more </p>
+                    </div>
+                    <div class="details-container">
+                        <img src="./resources/experience.png" alt="Experience icon" class="icon" />
+                        <h3>Certification</h3>
+                        <p>Data Science - Nettech <br /> Android Development - B.K Birla College <br /> Graphic & Web Designing - Java Computer Centre <br /> MS-CIT - MH Board <br /> More </p>
+                    </div>
+                </div>
+                <div class="text-container">
+                    <p>
+                        <code>
+                        I build things for the internet and occasionally break them just to see how they work. I enjoy clean code, quiet coffee, and those moments when a stubborn bug finally gives in.
+
+                        I didn't start out wanting to be a developer, I just wanted to solve a problem. One solution led to another, and somewhere along the way, I realized that creating digital experiences is what I love doing most.
+
+                        Now, I’m here writing logic, shaping interfaces, and learning every day. Not trying to be the best out there just better than I was yesterday.
+                        </code>
+                    </p>
+                </div>
+                
+            </div>
+        </div>
+        <div class="about__pic-container">
+            <img src="./resources/about-pic.jpg" alt="Profile Picture" class="about-pic" />
+        </div>
+    </section>
+
+    <section id="experience">
+        <p class="section__text__p1">Explore My</p>
+        <h1 class="title">Experience</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Python Developer</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="./resources/checkmark.png" alt="Experience icon" class="icon" />
+                            <h4>CODTECH IT SOLUTIONS</h4>
+                        </article>
+                        <div> 
+                            <p>Jul 24 - Aug 24 | Virtual</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Data Analysis</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="./resources/checkmark.png" alt="Experience icon" class="icon" />
+                            <h4>Main Flow Services and Technologies</h4>
+                        </article>
+                        <div>
+                            <p>Jul 24 - Sep 24 | Virtual</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Back-end Developer</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="./resources/checkmark.png" alt="Experience icon" class="icon" />
+                            <h4>Orinson Technologies Private Limited</h4>
+                        </article>
+                        <div>
+                            <p>Sep 24 - Oct 24 | Virtual</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <p class="section__text__p1">Browse My Recent</p>
+        <h1 class="title">Projects</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="./resources/project-1.png" alt="RIVORA" class="project-img" />
+                    </div>
+                    <h2 class="experience-sub-title project-title">RIVORA | Django Website</h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/Sumit0ubey/RIVORA-WebApp'"> Github </button>
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://devsumitcodepython.pythonanywhere.com/'"> Live Website </button>
+                    </div>
+                </div>
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="./resources/project-2.png" alt="iMusicPlayer" class="project-img" />
+                    </div>
+                    <h2 class="experience-sub-title project-title">iMusic Player | Android App</h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/Sumit0ubey/iMusicPlayer'"> Github </button>
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/Sumit0ubey/iMusicPlayer/releases/download/v1.4.1/iMusicPlayer-v1.4.1.apk'"> Download App </button>
+                    </div>
+                </div>
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="./resources/project-3.png" alt="EmailServiceApi" class="project-img" />
+                    </div>
+                    <h2 class="experience-sub-title project-title">Email Service | FastApi API</h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/Sumit0ubey/EmailServiceAPP'"> Github </button>
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://emailserviceapp.onrender.com/docs'"> Live Docs </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <p class="section__text__p1">Get in Touch</p>
+        <h1 class="title">Contact Me</h1>
+        <div class="contact-info-upper-container">
+            <div class="contact-info-container">
+                <img src="./resources/email.png" alt="Email icon" class="icon contact-icon email-icon">
+                <p><a href="mailto:dubeysumit378@gmail.com">Email Me </a></p>
+            </div>
+            <div class="contact-info-container">
+                <img src="./resources/linkedin.png" alt="Linkedin icon" class="icon contact-icon">
+                <p><a href="https://www.linkedin.com/in/sumit-dubey-8762802a1"> Linkedin Me</a></p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <nav>
+            <div class="nav-links-container">
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="https://github.com/Sumit0ubey/">GitHub</a></li>
+                </ul>
+            </div>
+        </nav>
+        <p>Copyright &#169; <span id="year"></span> Sumit Dubey . All Rights Reserved</p>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
