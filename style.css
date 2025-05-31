@@ -584,6 +584,10 @@ footer p {
     text-decoration-color: #555;
   }
 
+  .hamburger-icon span {
+    background-color: rgb(188, 185, 185);
+    transition: all 0.5 ease-in-out;
+  }
   .btn-color-1,
   .btn-color-2 {
     border-color: #ccc;
