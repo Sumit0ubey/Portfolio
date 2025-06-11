@@ -1,7 +1,7 @@
 const isDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
 
 let typed = new Typed (".multuple-text", {
-    strings: ["Python Developer", "Java Developer", "Android Developer", "Web Developer", "Data Analysis", "data scientist", "Human"],
+    strings: ["Full Stack Developer", "Python Developer", "Java Developer", "Web Developer", "Data Analyst", "Data scientist", "Android Developer", "Human"],
     typeSpeed: 100,
     backSpeed: 100,
     backDelay: 1000,
