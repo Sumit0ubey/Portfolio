@@ -331,6 +331,12 @@ section {
   object-fit: cover;
 }
 
+.no-bullets {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
 
 /* EXPERIENCE SECTION */
 
