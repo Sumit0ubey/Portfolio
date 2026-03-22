@@ -1,10 +1,10 @@
 # Portfolio
 
-This is a personal portfolio website created by Sumit Dubey using **HTML**, **CSS**, and **JavaScript**.
+This is a personal portfolio website created using **HTML**, **CSS**, and **JavaScript**.
 
 ## 🌐 Overview
 
-This project showcases Sumit's skills, projects, and experience in a clean and responsive layout. It's perfect as a starting point for anyone wanting to build a web-based professional profile or resume.
+This project showcases skills, projects, and experience in a clean and responsive layout. It's perfect as a starting point for anyone wanting to build a web-based professional profile or resume.
 
 ## 🚀 Features
 
